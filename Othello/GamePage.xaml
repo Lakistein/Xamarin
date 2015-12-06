@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns = "http://xamarin.com/schemas/2014/forms" xmlns:x = "http://schemas.microsoft.com/winfx/2009/xaml" x:Class = "Othello.GamePage">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor = "White"
+			Orientation = "Vertical">
+			<StackLayout.Children>
+				<StackLayout Padding = "10,10,10,10"
+					Orientation = "Horizontal"
+					HorizontalOptions = "Fill"
+					VerticalOptions = "Start"
+					BackgroundColor = "Black">
+					<StackLayout.Children>
+						<Label x:Name = "lblTurn"
+							VerticalOptions = "Start"
+							HorizontalOptions = "StartAndExpand"
+							Text = "White player turn."
+							TextColor = "White"
+							FontSize = "Medium"
+							XAlign = "Center" />
+					</StackLayout.Children>
+				</StackLayout>
+				<Label x:Name = "lblPieces"
+					VerticalOptions = "Center"
+					HorizontalOptions = "Center"
+					Text = "White: x0 Black: x0!"
+					TextColor = "Black"
+					FontSize = "Large" />
+				<Grid x:Name = "grid"
+					HorizontalOptions = "CenterAndExpand"
+					VerticalOptions = "CenterAndExpand"
+					RowSpacing = "2"
+					ColumnSpacing = "2"
+					Padding = "10,10,10,10"
+					BackgroundColor = "Green">
+				</Grid>
+			</StackLayout.Children>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

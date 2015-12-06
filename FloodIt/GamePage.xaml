@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns = "http://xamarin.com/schemas/2014/forms" xmlns:x = "http://schemas.microsoft.com/winfx/2009/xaml" x:Class = "FloodIt.GamePage">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor = "White"
+			Orientation = "Vertical">
+			<StackLayout.Children>
+				<StackLayout Padding = "10,10,10,10"
+					Orientation = "Horizontal"
+					HorizontalOptions = "Fill"
+					VerticalOptions = "Start"
+					BackgroundColor = "Black">
+					<StackLayout.Children>
+						<Label x:Name = "lblMoves"
+							VerticalOptions = "Start"
+							Text = "Moves left: "
+							TextColor = "White"
+							FontSize = "Large" />
+					</StackLayout.Children>
+				</StackLayout>
+				<Grid x:Name = "grid"
+					HorizontalOptions = "CenterAndExpand"
+					VerticalOptions = "CenterAndExpand"
+					RowSpacing = "0"
+					ColumnSpacing = "0"
+					Padding = "10,10,10,10">
+				</Grid>
+				<StackLayout Orientation = "Horizontal"
+					HorizontalOptions = "CenterAndExpand"
+					VerticalOptions = "Center"
+					Padding = "10,10,10,10">
+					<StackLayout.Children>
+						<Button BackgroundColor = "Purple"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+						<Button BackgroundColor = "Blue"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+						<Button BackgroundColor = "Green"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+						<Button BackgroundColor = "Red"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+						<Button BackgroundColor = "Maroon"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+						<Button BackgroundColor = "Yellow"
+							Clicked = "OnColorButtonClicked"
+							BorderRadius = "0"
+							WidthRequest = "40"
+							HeightRequest = "40" />
+					</StackLayout.Children>
+				</StackLayout>
+			</StackLayout.Children>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

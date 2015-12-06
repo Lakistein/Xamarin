@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns = "http://xamarin.com/schemas/2014/forms" xmlns:x = "http://schemas.microsoft.com/winfx/2009/xaml" x:Class = "FloodIt.MainPage">
+	<ContentPage.Content>
+		<StackLayout x:Name = "stkL"
+			HorizontalOptions = "FillAndExpand"
+			VerticalOptions = "CenterAndExpand"
+			BackgroundColor = "Transparent">
+			<StackLayout.Children>
+				<Button Text = "Start"
+					Clicked = "OnBtnStart" />
+				<Picker x:Name = "picker"
+					SelectedIndexChanged = "pickerChanged">
+					<Picker.Items>
+						<x:String>Board Size: 12 x 12</x:String>
+						<x:String>Board Size: 18 x 18</x:String>
+						<x:String>Board Size: 24 x 24</x:String>
+					</Picker.Items>
+				</Picker>
+			</StackLayout.Children>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>	

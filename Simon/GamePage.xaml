@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns = "http://xamarin.com/schemas/2014/forms" xmlns:x = "http://schemas.microsoft.com/winfx/2009/xaml" x:Class = "Simon.GamePage">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor = "White"
+			Orientation = "Vertical">
+			<StackLayout.Children>
+				<StackLayout Padding = "10,10,10,10"
+					Orientation = "Horizontal"
+					HorizontalOptions = "Fill"
+					VerticalOptions = "Start"
+					BackgroundColor = "Black">
+					<StackLayout.Children>
+						<Label x:Name = "lblMoves"
+							VerticalOptions = "Start"
+							HorizontalOptions = "StartAndExpand"
+							Text = "Clicks left: "
+							TextColor = "White"
+							FontSize = "Medium"
+							XAlign = "Center" />
+					</StackLayout.Children>
+				</StackLayout>
+				<Label x:Name = "lblTurn"
+					VerticalOptions = "Center"
+					HorizontalOptions = "Center"
+					Text = "Get ready!"
+					TextColor = "Black"
+					FontSize = "Large" />
+				<Grid x:Name = "grid"
+					HorizontalOptions = "CenterAndExpand"
+					VerticalOptions = "CenterAndExpand"
+					RowSpacing = "10"
+					ColumnSpacing = "10"
+					Padding = "10,10,10,10">
+					<Button x:Name = "btn0"
+						Text = "0"
+						TextColor = "Transparent"
+						BackgroundColor = "Yellow"
+						Clicked = "OnButtonClick"
+						Grid.Row = "0"
+						Grid.Column = "0" />
+					<Button x:Name = "btn1"
+						Text = "1"
+						TextColor = "Transparent"
+						BackgroundColor = "Blue"
+						Clicked = "OnButtonClick"
+						Grid.Row = "0"
+						Grid.Column = "1" />
+					<Button x:Name = "btn2"
+						Text = "2"
+						TextColor = "Transparent"
+						BackgroundColor = "Red"
+						Clicked = "OnButtonClick"
+						Grid.Row = "1"
+						Grid.Column = "0" />
+					<Button x:Name = "btn3"
+						Text = "3"
+						TextColor = "Transparent"
+						BackgroundColor = "Green"
+						Clicked = "OnButtonClick"
+						Grid.Row = "1"
+						Grid.Column = "1" />
+				</Grid>
+			</StackLayout.Children>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
