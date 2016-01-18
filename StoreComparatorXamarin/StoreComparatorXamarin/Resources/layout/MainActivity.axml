@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff000000">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/txt_store_name"
+            android:id="@+id/txt_store_name"
+            android:focusable="true"
+            android:textColor="#ffffffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/btn_addStore"
+            android:text="@string/btn_add_store"
+            android:onClick="addStore" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="all items"
+            android:id="@+id/button3"
+            android:onClick="showAllItems"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compare Stores"
+            android:id="@+id/btnCompareStores"
+            android:onClick="btnCompareStores" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storeListView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

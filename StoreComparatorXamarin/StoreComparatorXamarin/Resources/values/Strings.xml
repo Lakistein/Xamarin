@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Store Comparer</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_store_name">Store Name</string>
+    <string name="title_activity_store">Stores</string>
+    <string name="btn_add_store">Add Store</string>
+    <string name="txt_empty_store_name">You have to enter a name</string>
+    <string name="title_activity_all_items">AllI tems</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_edit_item">Add/Edit Item</string>
+    <string name="title_activity_select_stores">Select Stores</string>
+    <string name="title_activity_select_items_to_compare">Select Items</string>
+    <string name="title_activity_compared_items">Compared Items</string>
+
+</resources>
+	

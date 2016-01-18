@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Add new item"
+            android:id="@+id/btnAddItem"
+            android:layout_marginTop="10dp"
+            android:onClick="addNewItem"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allItemsFromStoreListView"
+        android:layout_marginTop="10dp"
+        android:headerDividersEnabled="false"/>
+
+</LinearLayout>

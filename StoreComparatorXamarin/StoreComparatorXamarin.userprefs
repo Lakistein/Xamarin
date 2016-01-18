@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="StoreComparatorXamarin\StoreComparatorXamarin.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_GalaxyNexus_ToolsForApacheCordova" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StoreComparatorXamarin\MySQLiteHelper.cs">
+    <Files>
+      <File FileName="StoreComparatorXamarin\MySQLiteHelper.cs" Line="4" Column="4" />
+      <File FileName="StoreComparatorXamarin\MainActivity.cs" Line="42" Column="42" />
+      <File FileName="StoreComparatorXamarin\StoreActivity.cs" Line="19" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StoreComparatorXamarin MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

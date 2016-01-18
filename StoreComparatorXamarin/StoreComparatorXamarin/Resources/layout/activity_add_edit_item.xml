@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lazarlazarevic.storecomparer.AddEditItemActivity">
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_gravity="center_horizontal"
+        android:hint="Name"
+        android:inputType="textCapWords|textCapSentences|textCapCharacters"
+        android:textColor="#ffffffff" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCategory"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapWords|textCapSentences|textCapCharacters"
+        android:hint="Category"
+        android:textColor="#ffffffff" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtPrice"
+        android:layout_gravity="center_horizontal"
+        android:hint="Price"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtWeight"
+        android:layout_gravity="center_horizontal"
+        android:hint="Weight"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/btndone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="btnDone" />
+</LinearLayout>
